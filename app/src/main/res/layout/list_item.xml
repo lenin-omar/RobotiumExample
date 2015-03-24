@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/UsersLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageUser"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/usuario" />
+
+    <TextView
+        android:id="@+id/fName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageUser"
+        android:lines="1"
+        android:text="First Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fName"
+        android:layout_toRightOf="@+id/imageUser"
+        android:lines="1"
+        android:text="Last Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lName"
+        android:layout_toRightOf="@+id/imageUser"
+        android:lines="1"
+        android:text="Country"
+        android:textSize="20sp" />
+
+</RelativeLayout>

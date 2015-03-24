@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PersonExample</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="countries">
+        <item name="blank"></item>
+        <item name="canada">Canada</item>
+        <item name="mexico">Mexico</item>
+        <item name="spain">Spain</item>
+        <item name="unitedstates">United States</item>
+    </string-array>
+
+    <string-array name="states_mexico">
+        <item name="blank"></item>
+        <item name="coahuila">Coahuila</item>
+        <item name="chihuahua">Chihuahua</item>
+        <item name="durango">Durango</item>
+        <item name="mexicodf">Mexico D.F.</item>
+    </string-array>
+
+    <string-array name="states_usa">
+        <item name="blank"></item>
+        <item name="georgia">Georgia</item>
+        <item name="texas">Texas</item>
+        <item name="california">California</item>
+        <item name="arizona">Arizona</item>
+        <item name="newmexico">New Mexico</item>
+    </string-array>
+
+    <string-array name="states_spain">
+        <item name="blank"></item>
+        <item name="barcelona">Barcelona</item>
+        <item name="madrid">Madrid</item>
+        <item name="sevilla">Sevilla</item>
+        <item name="valencia">Valencia</item>
+    </string-array>
+
+    <string-array name="states_canada">
+        <item name="blank"></item>
+        <item name="alberta">Alberta</item>
+        <item name="britishcolumbia">British Columbia</item>
+        <item name="ontario">Ontario</item>
+        <item name="quebec">Quebec</item>
+    </string-array>
+
+    <string name="title_activity_person">PersonActivity</string>
+
+</resources>
